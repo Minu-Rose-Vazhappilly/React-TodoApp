@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTodos, addTodo, deleteTodo, updateTodo } from "./redux/todoSlice";
-import './app.css'
+import './App.css'
 
 function App() {
   const [userInput, setUserInput] = useState({ name: "", completed: false });
