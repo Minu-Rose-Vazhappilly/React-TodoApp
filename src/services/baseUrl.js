@@ -1,3 +1,3 @@
- const baseurl = 'http://localhost:3000/todos'
+ const baseurl = 'https://todoserver-redux.onrender.com/todos'
 
  export default baseurl
